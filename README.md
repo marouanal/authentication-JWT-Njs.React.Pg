@@ -1,4 +1,4 @@
-après avoir créé la base de données nommée "testapi" et la table "users" contenant id bigint NOT NULL,
+Après avoir créé la base de données nommée "testapi" et la table "users" contenant id bigint NOT NULL,
     username character varying(255) NOT NULL,
     email character varying(255) NOT NULL,
     password character varying(255) NOT NULL
@@ -12,3 +12,5 @@ Vous pouvez ensuite accéder à la route protégée /profile pour vérifier vos 
 
 naviguez dans le répertoire de projet /répertoire backend-nodejs et exécutez npm install si une erreur se produit, exécutez npm update et npm audit fix --force
 puis exécutez le fichier app.js avec la commande : node app.js
+
+Je note que je travaille actuellment sur le front, je suis en phase de debug/test. 
